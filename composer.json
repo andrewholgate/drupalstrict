@@ -1,0 +1,33 @@
+{
+    "name": "andrewholgate/drupalstrict",
+    "type": "library",
+    "description": "Drupal Strict: Strictly enforces additional coding standards for Drupal development using PHP CodeSniffer.",
+    "keywords": [
+        "phpcs",
+        "standards",
+        "code review",
+        "drupal"
+    ],
+    "homepage": "https://github.com/andrewholgate/drupalstrict",
+    "license": "GNU GPL v2.0",
+    "support": {
+        "issues": "https://github.com/andrewholgate/drupalstrict/issues",
+        "source": "https://github.com/andrewholgate/drupalstrict/tree/master"
+    },
+    "authors": [
+        {
+            "name": "Andrew Holgate",
+            "role": "Drupal Techn Lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "squizlabs/php_codesniffer": "~2.0.0@dev",
+        "drupal/coder": "~8.2@beta"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
