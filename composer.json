@@ -22,8 +22,8 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "squizlabs/php_codesniffer": "~2.0.@dev",
-        "drupal/coder": "~8.2@beta"
+        "squizlabs/php_codesniffer": "~2.0",
+        "drupal/coder": "~8.2"
     },
     "extra": {
         "branch-alias": {
